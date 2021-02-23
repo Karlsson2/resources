@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://kit.fontawesome.com/3567689800.js" crossorigin="anonymous"></script>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Hello, world!</title>
+	</head>
+	
+		<body>
+		
+
+		<script>
+		$(document).ready(function(){
+			$( "rightdiv").hover(function() {
+  				$( "icon-div" ).css( "display", "block" );
+			});
+		});
+
+		</script>	
+		<style>
+			.maindiv {
+				display: grid;
+    			grid-template-columns: 1.5fr 2fr 1fr;
+    			margin: 0 auto;
+    			background: #028c63;
+			}
+			.leftdiv {
+				background: url(https://www.uni-quest.co.uk/wp-content/uploads/2016/06/Grove-House.jpg);
+				height: 600px;
+			}
+			.rightdiv {
+				color: #ffffff;
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+			.icondiv{
+				display: flex;
+				justify-content: space-around;
+				font-size: 40px;
+			}
+			.rightdiv-content > h1{
+				margin-left: 90px;
+				margin-top: 80px;
+				margin-bottom: 40px;
+			}
+			.rightdiv-content > p {
+				margin-left: 80px;
+				width: 80%;
+			}
+		</style>
+
+		<div class="maindiv">
+			<div class="leftdiv">
+			</div>	
+			<div class="rightdiv">
+				<div class="rightdiv-content">
+					<h1>Alumni</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut nulla vitae velit interdum commodo eget quis lectus. Aenean ut accumsan erat, eu laoreet tellus. Etiam cursus odio sed commodo sagittis. Vivamus diam sapien, efficitur et nibh sit amet, blandit tempus velit. Proin laoreet ullamcorper nulla ultricies hendrerit. Aliquam lacus odio, suscipit eu lobortis eu, egestas a turpis. Nam egestas congue magna id hendrerit. Sed a ipsum egestas, lobortis risus non, porta magna.</p>
+				</div>
+				<div class="icondiv">
+					<i class="fas fa-book-open"></i>
+					<i class="fas fa-book"></i>
+					<i class="fas fa-graduation-cap"></i>
+				</div>
+
+			</div>	
+
+		</div>
+	</body>
+	</html>
