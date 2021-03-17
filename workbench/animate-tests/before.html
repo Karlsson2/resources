@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/3567689800.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+    <style>
+
+      .bigcont{
+        position: relative;
+        background: #212529;
+        z-index: -1;
+      }
+        .container {
+          text-align: center;
+          left: 0;
+          right: 0;
+          overflow: hidden;
+         }
+
+        .main {
+          position:relative;
+          width: 300px;
+          min-height: 60px;
+          margin: auto;
+          padding-top:15px; 
+
+        }
+
+        .main:before {
+          content:'';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-bottom: 500px solid #555;
+          border-right: 500px solid transparent;
+          margin: auto;
+          z-index: -12;
+          right: -100px;
+          top: -50px; 
+        }
+        .main-two{
+          background-color: #ffffff;
+          }
+    </style>
+<div class="bigcont">
+  <div class="container">
+    <div class="main">
+      <h1>
+        This is the title
+      </h1>
+      <p>This is a paragraph paragraphparagraphpararrrrrgrapaaaaaaaaaah.</p>
+    </div>
+
+  </div>
+    <div class="container">
+    <div class="main-two">
+      <h1>
+        This is the title
+      </h1>
+      <p>This is a paragraph paragraphparagraphpararrrrrgrapaaaaaaaaaah.</p>
+    </div>
+
+  </div>
+</div>
+
+  </body>
+
+</html>
